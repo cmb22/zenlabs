@@ -6,7 +6,7 @@ import type { NextRequest } from "next/server";
 const PUBLIC_FILE = /\.(.*)$/;
 const locales = ["de", "en", "fr"];
 
-export function middleware(request: NextRequest) {
+export function proxy(request: NextRequest) {
     const { pathname } = request.nextUrl;
 
     if (

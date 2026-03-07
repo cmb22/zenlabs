@@ -2,8 +2,12 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import { Menu } from "@/components/menu";
 import { Content as ServicesContent } from "./services/content";
+import { type Locale } from "@/lib/dictionary";
 
-export default async function Home() {
+export default async function Home({ params }: { params: { lang: string } }) {
+  console.log("Received params:", await params);
+  const { lang } = await params as { lang: Locale };
+
   return (
     <div className={styles.page}>
       <section className={styles.hero}>
@@ -25,7 +29,7 @@ export default async function Home() {
 
       <section className={styles.whiteSection}>
         <Menu />
-        <ServicesContent />
+        <ServicesContent lang={lang} />
       </section>
     </div>
   );

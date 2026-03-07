@@ -8,11 +8,12 @@ import { usePathname } from "next/navigation";
 import styles from "./menu.module.css";
 import { LanguageSwitcher } from "./Langswitcher";
 import { translate } from "@/utils/translate";
+import { type Locale } from "@/lib/dictionary";
 
 export const Menu = () => {
     const pathname = usePathname();
     const segments = pathname.split("/");
-    const lang = segments[1] || "de";
+    const lang = segments[1] as Locale;
     const t = translate({ lang, val: "navigation" });
 
     const isActive = (path: string) => pathname.startsWith(`/${lang}${path}`);
