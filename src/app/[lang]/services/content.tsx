@@ -1,6 +1,5 @@
 import styles from "./content.module.css";
-import { dictionary, type Locale } from "@/lib/dictionary";
-// import { get } from "lodash";
+import { type Locale } from "@/lib/dictionary";
 import { translate } from "@/utils/translate";
 
 type ContentProps = {

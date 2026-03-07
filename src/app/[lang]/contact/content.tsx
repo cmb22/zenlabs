@@ -23,9 +23,9 @@ export const Content = ({ lang }: ContentProps) => {
 
                         <a
                             className={diamondCSS.email}
-                            href="mailto:letstalk@zenlabs.ch"
+                            href="mailto:letstalk@zen-labs.de"
                         >
-                            letstalk@zenlabs.ch
+                            letstalk@zen-labs.de
                         </a>
 
                         <a
