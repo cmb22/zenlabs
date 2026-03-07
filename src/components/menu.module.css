@@ -1,0 +1,88 @@
+/* weiße Seite beginnt eigentlich hier */
+.whiteSection {
+    position: relative;
+    margin-top: -120px;
+    /* zieht den oberen Teil nach oben in den Hero hinein */
+    background: #f3f0eb;
+    min-height: 140vh;
+    z-index: 2;
+}
+
+/* das ist der obere Teil der weißen Seite */
+.menuWrap {
+    position: sticky;
+    top: 0;
+    background: #f3f0eb;
+    padding: 14px 24px 24px;
+    z-index: 20;
+}
+
+.menuInner {
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menuLogo {
+    margin-bottom: 20px;
+}
+
+.nav {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border-top: 1px solid #9d9892;
+    border-bottom: 1px solid #9d9892;
+}
+
+.nav a {
+    min-height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #111;
+    border-right: 1px solid #9d9892;
+    font-size: 12px;
+    letter-spacing: 0.02em;
+}
+
+.nav a:last-child {
+    border-right: none;
+}
+
+.contentInner {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 80px 24px 120px;
+}
+
+.contentInner h2 {
+    font-size: 32px;
+    margin-bottom: 24px;
+}
+
+.contentInner p {
+    font-size: 18px;
+    line-height: 1.7;
+    max-width: 760px;
+}
+
+.nav a {
+    color: #1a1a1a;
+    text-decoration: none;
+    transition: color 0.2s ease;
+    text-transform: uppercase;
+
+}
+
+.nav a:hover {
+    color: #9b3a32;
+}
+
+.nav a.active {
+    color: #9b3a32;
+}

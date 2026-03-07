@@ -1,0 +1,45 @@
+.page {
+  width: 100%;
+  background: #f3f0eb;
+  color: #111;
+}
+
+.hero {
+  height: 90vh;
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heroInner {
+  width: 100%;
+  max-width: 1100px;
+  /* padding: 40px 24px; */
+  padding-bottom: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.heroLogo {
+  margin-bottom: 50px;
+}
+
+.quote {
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* weiße Seite beginnt eigentlich hier */
+.whiteSection {
+  position: relative;
+  margin-top: -120px;
+  /* zieht den oberen Teil nach oben in den Hero hinein */
+  background: #f3f0eb;
+  min-height: 140vh;
+  z-index: 2;
+}

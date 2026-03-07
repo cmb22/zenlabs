@@ -1,0 +1,8 @@
+.whiteSection {
+    position: relative;
+    /* margin-top: -120px; */
+    /* zieht den oberen Teil nach oben in den Hero hinein */
+    background: #f3f0eb;
+    min-height: 140vh;
+    z-index: 2;
+}
