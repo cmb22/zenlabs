@@ -108,7 +108,7 @@
 .processText {
     margin: 0;
     max-width: 680px;
-    font-size: var(--font-16);
+    font-size: 16px;
     line-height: 1.75;
 }
 
