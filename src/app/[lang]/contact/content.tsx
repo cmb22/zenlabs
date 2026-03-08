@@ -9,14 +9,17 @@ type ContentProps = {
     lang: Locale;
 };
 
-export const Content = ({ lang }: ContentProps) => {
+export const Content = async ({ lang }: ContentProps) => {
     const t = translate({ lang, val: "contact" });
 
     return (
         <DiamondLayout>
             <h1 className={styles.title}>{t("title")}</h1>
 
-            <p className={styles.lead}>{t("lead")}</p>
+            <p className={styles.lead}>
+                <span className={styles.desktopText}>{t("lead")}</span>
+                <span className={styles.mobileText}>{t("leadMobile")}</span>
+            </p>
 
             <a className={styles.email} href="mailto:letstalk@zen-labs.de">
                 letstalk@zen-labs.de

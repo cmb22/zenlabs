@@ -15,13 +15,22 @@ export const Content = ({ lang }: ContentProps) => {
     return (
         <DiamondLayout>
             <h2 className={styles.title}>{t("principle1Title")}</h2>
-            <p className={styles.lead}>{t("principle1Text")}</p>
+            <p className={styles.lead}>
+                <span className={styles.desktopText}>{t("principle1Text")}</span>
+                <span className={styles.mobileText}>{t("principle1TextMobile")}</span>
+            </p>
 
             <h2 className={styles.title}>{t("principle2Title")}</h2>
-            <p className={styles.lead}>{t("principle2Text")}</p>
+            <p className={styles.lead}>
+                <span className={styles.desktopText}>{t("principle2Text")}</span>
+                <span className={styles.mobileText}>{t("principle2TextMobile")}</span>
+            </p>
 
             <h2 className={styles.title}>{t("principle3Title")}</h2>
-            <p className={styles.lead}>{t("principle3Text")}</p>
+            <p className={styles.lead}>
+                <span className={styles.desktopText}>{t("principle3Text")}</span>
+                <span className={styles.mobileText}>{t("principle3TextMobile")}</span>
+            </p>
         </DiamondLayout>
     );
 };

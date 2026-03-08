@@ -44,31 +44,20 @@
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    color: #111;
+    color: #1a1a1a;
     border-right: 1px solid #9d9892;
-    font-size: var(--font-14);
+    font-size: 16px;
     letter-spacing: 0.02em;
+    transition: color 0.2s ease;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
-/* @media (max-width: 500px) {
-    .nav a {
-        font-size: var(--font-10);
-    }
-} */
 
 .nav a:last-child {
     border-right: none;
 }
 
-
-
-.nav a {
-    color: #1a1a1a;
-    text-decoration: none;
-    transition: color 0.2s ease;
-    text-transform: uppercase;
-
-}
 
 .nav a:hover {
     color: #9b3a32;
@@ -76,4 +65,12 @@
 
 .nav a.active {
     color: #9b3a32;
+}
+
+@media (max-width: 768px) {
+    .nav a {
+        letter-spacing: -1px;
+        font-size: 13px;
+    }
+
 }

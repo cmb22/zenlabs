@@ -7,7 +7,7 @@ export const dictionary = {
         services: {
             title: "Web Design & Entwicklung",
             lead:
-                "Ihre Website ist oft der erste Eindruck, den Kunden von Ihrem Unternehmen bekommen. Zenlabs entwickelt moderne Websites für Unternehmen und Selbstständige – mit klarem Design, hoher Performance und einfacher Wartbarkeit.",
+                "Ihre Website ist oft der erste Eindruck, den Kunden von Ihrem Unternehmen bekommen. Zenlabs entwickelt moderne Websites für Unternehmen und Selbstständige – mit klarem Design, hoher Performance und einfacher Wartbarkeit. Langsame Websites verlieren Aufmerksamkeit. Schnelle Ladezeiten verbessern Nutzererlebnis, Vertrauen und Sichtbarkeit in Suchmaschinen.",
 
             businessWebsitesTitle: "Unternehmenswebsites",
             businessWebsitesText:
@@ -43,7 +43,10 @@ export const dictionary = {
         contact: {
             title: "Sprechen wir über Ihr Projekt",
             lead:
-                "Wenn Sie eine neue Website planen oder Ihre bestehende Website modernisieren möchten, freuen wir uns über Ihre Nachricht.",
+                "Wenn Sie eine neue Website planen oder Ihre bestehende modernisieren möchten, schreiben Sie uns.",
+            leadMobile:
+                "Schreiben Sie uns.",
+
             email: "E-Mail",
             phone: "Telefon",
             location: "Standort",
@@ -71,14 +74,20 @@ export const dictionary = {
             principle1Title: "Klarheit",
             principle1Text:
                 "Klare Struktur und reduzierte Gestaltung machen Inhalte schnell verständlich.",
+            principle1TextMobile:
+                "Struktur macht Inhalte verständlich.",
 
             principle2Title: "Performance",
             principle2Text:
                 "Schnelle Websites, die auf allen Geräten zuverlässig funktionieren.",
+            principle2TextMobile:
+                "Schnelle Websites auf allen Geräten.",
 
             principle3Title: "Langlebigkeit",
             principle3Text:
                 "Websites werden so entwickelt, dass sie langfristig wartbar bleiben.",
+            principle3TextMobile:
+                "Langfristig wartbar und anpassbar.",
         },
 
         navigation: {
@@ -98,7 +107,7 @@ export const dictionary = {
         services: {
             title: "Design & développement web",
             lead:
-                "Votre site web est souvent la première impression que les clients ont de votre entreprise. Zenlabs développe des sites web modernes pour entreprises et indépendants — avec un design clair, de bonnes performances et une maintenance simple.",
+                "Votre site web est souvent la première impression que les clients ont de votre entreprise. Zenlabs développe des sites web modernes pour entreprises et indépendants — avec un design clair, de bonnes performances et une maintenance simple. Les sites lents font perdre l’attention. Des temps de chargement rapides améliorent l’expérience utilisateur, la confiance et la visibilité dans les moteurs de recherche.",
 
             businessWebsitesTitle: "Sites web d'entreprise",
             businessWebsitesText:
@@ -134,7 +143,10 @@ export const dictionary = {
         contact: {
             title: "Parlons de votre projet",
             lead:
-                "Si vous envisagez un nouveau site web ou souhaitez moderniser votre site existant, n’hésitez pas à nous contacter.",
+                "Si vous envisagez un nouveau site web ou souhaitez moderniser votre site actuel, contactez-nous.",
+            leadMobile:
+                "Contactez-nous.",
+
             email: "Email",
             phone: "Téléphone",
             location: "Localisation",
@@ -149,11 +161,11 @@ export const dictionary = {
             projectTitle: "Planungswerk Wucke Näther",
 
             servicesLabel: "Projet",
-            servicesText: "Site web pour un cabinet d’architecture basé à Berlin.",
+            servicesText: "Site web pour un bureau d’architecture à Berlin.",
 
             summaryLabel: "Description",
             summaryText:
-                "Site minimaliste présentant les projets, le profil du cabinet et les informations de contact. L’accent est mis sur une structure visuelle claire et une esthétique calme, proche de l’architecture.",
+                "Site minimaliste présentant les projets, le profil du bureau et les informations de contact. L’accent est mis sur une structure visuelle claire et une esthétique calme, proche de l’architecture.",
 
             note: "Autres projets sur demande.",
         },
@@ -162,14 +174,20 @@ export const dictionary = {
             principle1Title: "Clarté",
             principle1Text:
                 "Une structure claire et un design réduit rendent le contenu facile à comprendre.",
+            principle1TextMobile:
+                "Une structure claire rend le contenu compréhensible.",
 
             principle2Title: "Performance",
             principle2Text:
                 "Des sites rapides qui fonctionnent de manière fiable sur tous les appareils.",
+            principle2TextMobile:
+                "Des sites rapides sur tous les appareils.",
 
             principle3Title: "Durabilité",
             principle3Text:
                 "Des sites conçus pour rester faciles à maintenir dans le temps.",
+            principle3TextMobile:
+                "Faciles à maintenir.",
         },
 
         navigation: {
@@ -189,7 +207,7 @@ export const dictionary = {
         services: {
             title: "Web design & development",
             lead:
-                "Your website is often the first impression potential clients get of your business. Zenlabs develops modern websites for businesses and independent professionals — with clear design, strong performance and straightforward long-term maintainability.",
+                "Your website is often the first impression potential clients get of your business. Zenlabs develops modern websites for businesses and independent professionals — with clear design, strong performance and straightforward long-term maintainability. Slow websites lose attention. Fast loading times improve user experience, trust and search visibility.",
 
             businessWebsitesTitle: "Business websites",
             businessWebsitesText:
@@ -225,7 +243,10 @@ export const dictionary = {
         contact: {
             title: "Let’s talk about your project",
             lead:
-                "If you are planning a new website or would like to modernise your existing one, we would be happy to hear from you.",
+                "If you are planning a new website or would like to modernise your existing one, feel free to contact us.",
+            leadMobile:
+                "Get in touch.",
+
             email: "Email",
             phone: "Phone",
             location: "Location",
@@ -253,14 +274,20 @@ export const dictionary = {
             principle1Title: "Clarity",
             principle1Text:
                 "Clear structure and reduced design make content easy to understand.",
+            principle1TextMobile:
+                "Structure makes content easy to understand.",
 
             principle2Title: "Performance",
             principle2Text:
                 "Fast websites that work reliably across all devices.",
+            principle2TextMobile:
+                "Fast websites across all devices.",
 
             principle3Title: "Longevity",
             principle3Text:
                 "Websites built to remain maintainable over time.",
+            principle3TextMobile:
+                "Easy to maintain and adapt",
         },
 
         navigation: {

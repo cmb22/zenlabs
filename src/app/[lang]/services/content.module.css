@@ -17,9 +17,9 @@
 
 .mainTitle {
     margin: 0 0 24px;
-    font-size: var(--font-22);
+    font-size: 22px;
     line-height: 1.08;
-    font-weight: 400;
+    font-weight: 600;
     letter-spacing: -0.02em;
     color: #9b3a32;
 }
@@ -50,9 +50,9 @@
 
 .blockTitle {
     margin: 0 0 18px;
-    font-size: 21px;
+    font-size: 22px;
     line-height: 1.2;
-    font-weight: 400;
+    font-weight: 600;
     color: #9b3a32;
 }
 
@@ -135,23 +135,4 @@
         /* font-size: 16px; */
         line-height: 1.75;
     }
-
-    /* .processItem {
-        grid-template-columns: 38px 1fr;
-        gap: 5px;
-    }
-
-    .processNumber {
-        width: 30px;
-        height: 30px;
-        font-size: 14px;
-    }
-
-    .processTitle {
-        font-size: 16px;
-    }
-
-    .processText {
-        font-size: 15px;
-    } */
 }
