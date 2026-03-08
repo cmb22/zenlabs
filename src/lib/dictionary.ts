@@ -83,8 +83,8 @@ export const dictionary = {
 
         navigation: {
             home: "Startseite",
-            services: "Leistungen",
-            work: "Referenzen",
+            services: "Services",
+            work: "Projekte",
             philosophy: "Philosophie",
             contact: "Kontakt",
         },
@@ -143,7 +143,7 @@ export const dictionary = {
         },
 
         work: {
-            title: "Références",
+            title: "Projets",
             lead: "Quelques projets sélectionnés en design et développement web.",
 
             projectTitle: "Planungswerk Wucke Näther",
@@ -175,7 +175,7 @@ export const dictionary = {
         navigation: {
             home: "Accueil",
             services: "Services",
-            work: "Références",
+            work: "Projets",
             philosophy: "Philosophie",
             contact: "Contact",
         },

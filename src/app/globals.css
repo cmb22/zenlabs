@@ -1,13 +1,15 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --font-12: 12px;
-  --font-14: 14px;
-  --font-16: 16px;
-  --font-18: 18px;
-  --font-22: 22px;
-  --font-28: 28px;
-  --font-36: 36px;
+  --font-10: clamp(8px, 0.6vw, 10px);
+  --font-12: clamp(11px, 0.75vw, 12px);
+  /* --font-12: 12px; */
+  --font-14: clamp(12px, 0.9vw, 14px);
+  --font-16: clamp(14px, 1vw, 16px);
+  --font-18: clamp(16px, 1.2vw, 18px);
+  --font-22: clamp(18px, 1.6vw, 22px);
+  --font-28: clamp(22px, 2vw, 28px);
+  --font-36: clamp(28px, 3vw, 36px);
 }
 
 @media (prefers-color-scheme: dark) {

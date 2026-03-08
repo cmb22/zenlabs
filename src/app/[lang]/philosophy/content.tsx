@@ -1,6 +1,9 @@
+// src/app/[lang]/philosophy/content.tsx
+
 import { translate } from "@/utils/translate";
-import diamondCSS from "./diamond.module.css";
 import { type Locale } from "@/lib/dictionary";
+import { DiamondLayout } from "@/components/DiamondLayout";
+import styles from "./content.module.css";
 
 type ContentProps = {
     lang: Locale;
@@ -10,36 +13,15 @@ export const Content = ({ lang }: ContentProps) => {
     const t = translate({ lang, val: "philosophy" });
 
     return (
-        <section className={diamondCSS.page}>
-            <div className={diamondCSS.diamond}>
-                <div className={diamondCSS.inner}>
+        <DiamondLayout>
+            <h2 className={styles.title}>{t("principle1Title")}</h2>
+            <p className={styles.lead}>{t("principle1Text")}</p>
 
-                    <h1 className={diamondCSS.title}>
-                        {t("principle1Title")}
-                    </h1>
+            <h2 className={styles.title}>{t("principle2Title")}</h2>
+            <p className={styles.lead}>{t("principle2Text")}</p>
 
-                    <p className={diamondCSS.lead}>
-                        {t("principle1Text")}
-                    </p>
-
-                    <h1 className={diamondCSS.title}>
-                        {t("principle2Title")}
-                    </h1>
-
-                    <p className={diamondCSS.lead}>
-                        {t("principle2Text")}
-                    </p>
-
-                    <h1 className={diamondCSS.title}>
-                        {t("principle3Title")}
-                    </h1>
-
-                    <p className={diamondCSS.lead}>
-                        {t("principle3Text")}
-                    </p>
-
-                </div>
-            </div>
-        </section>
+            <h2 className={styles.title}>{t("principle3Title")}</h2>
+            <p className={styles.lead}>{t("principle3Text")}</p>
+        </DiamondLayout>
     );
 };

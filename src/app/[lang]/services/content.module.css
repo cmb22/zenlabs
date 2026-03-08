@@ -118,25 +118,25 @@
     }
 
     .mainTitle {
-        font-size: 32px;
+        /* font-size: 32px; */
         line-height: 1.12;
     }
 
     .lead {
-        font-size: 17px;
+        /* font-size: 17px; */
         line-height: 1.75;
     }
 
     .blockTitle {
-        font-size: 23px;
+        /* font-size: 23px; */
     }
 
     .text {
-        font-size: 16px;
+        /* font-size: 16px; */
         line-height: 1.75;
     }
 
-    .processItem {
+    /* .processItem {
         grid-template-columns: 38px 1fr;
         gap: 5px;
     }
@@ -153,5 +153,5 @@
 
     .processText {
         font-size: 15px;
-    }
+    } */
 }

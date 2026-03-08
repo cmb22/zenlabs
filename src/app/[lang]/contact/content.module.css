@@ -1,0 +1,72 @@
+/* src/app/[lang]/contact/contact-content.module.css */
+
+.title {
+    margin: 0;
+    width: 65%;
+    font-size: 22px;
+    color: white;
+    line-height: 1.2;
+}
+
+.lead {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.55;
+}
+
+.email {
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.email:hover {
+    color: #9b3a32;
+}
+
+.phone {
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+.phone:hover {
+    color: #9b3a32;
+}
+
+/* @media (max-width: 1200px) {
+
+
+    .lead {
+        font-size: 17px;
+    }
+
+    .email {
+        font-size: 22px;
+    }
+
+    .phone {
+        font-size: 17px;
+    }
+} */
+
+@media (max-width: 768px) {
+    .title {
+        width: 80%;
+        font-size: var(--font-18);
+    }
+
+    .lead {
+        font-size: var(--font-14);
+        line-height: 1.45;
+    }
+
+    .email {
+        font-size: var(--font-14);
+    }
+
+    .phone {
+        font-size: var(--font-14);
+    }
+}
