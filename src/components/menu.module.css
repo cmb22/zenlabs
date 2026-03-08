@@ -71,6 +71,7 @@
     .nav a {
         letter-spacing: -1px;
         font-size: 13px;
+        padding: 0px 5px;
     }
 
 }
