@@ -3,11 +3,11 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import type { ReactNode } from "react";
-import { dictionary, isLocale, type Locale } from "@/lib/dictionary";
+import { isLocale, type Locale } from "@/lib/dictionary";
 
 
 
-const siteUrl = "https://zenlabs.ch";
+const siteUrl = "https://zen-labs.de";
 
 const metadataByLocale: Record<
     Locale,
@@ -92,7 +92,6 @@ export async function generateMetadata({
 
 const locales = ["de", "en", "fr"] as const;
 
-// type Locale = (typeof locales)[number];
 
 type TProps = {
     children: ReactNode;

@@ -101,7 +101,7 @@ export const dictionary = {
 
     fr: {
         home: {
-            title: "Sites web modernes pour entreprises et indépendants",
+            title: "Sites web modernes pour entreprises et professionnels indépendants",
         },
 
         services: {
@@ -201,7 +201,7 @@ export const dictionary = {
 
     en: {
         home: {
-            title: "Modern websites for businesses and independent professionals",
+            title: "Modern websites for businesses and self-employed professionals",
         },
 
         services: {

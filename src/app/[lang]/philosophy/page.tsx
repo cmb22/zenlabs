@@ -9,7 +9,6 @@ type TProps = {
 };
 const PhilosophyPage = async ({ params }: TProps) => {
     const { lang } = await params;
-    console.log("Philo Received lang:", lang);
     if (!isLocale(lang)) {
         notFound();
     }

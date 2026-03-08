@@ -10,7 +10,6 @@ type TProps = {
 
 const Services = async ({ params }: TProps) => {
     const { lang } = await params;
-    console.log("Received lang:", lang);
     if (!isLocale(lang)) {
         notFound();
     }

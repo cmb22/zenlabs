@@ -3,11 +3,11 @@ import styles from "./page.module.css";
 import { Menu } from "@/components/menu";
 import { Content as ServicesContent } from "./services/content";
 import { type Locale } from "@/lib/dictionary";
+import { translate } from "@/utils/translate";
 
 export default async function Home({ params }: { params: { lang: string } }) {
-  console.log("Received params:", await params);
   const { lang } = await params as { lang: Locale };
-
+  const t = translate({ lang, val: "home" });
   return (
     <div className={styles.page}>
       <section className={styles.hero}>
@@ -15,14 +15,14 @@ export default async function Home({ params }: { params: { lang: string } }) {
           <Image
             className={styles.heroLogo}
             src="/logo_white.png"
-            alt="Zenlabs"
+            alt="Zenlabs Web Development"
             width={200}
             height={150}
             priority
           />
 
           <p className={styles.quote}>
-            Moderne Websites für Unternehmen und Selbständige
+            {t("title")}
           </p>
         </div>
       </section>

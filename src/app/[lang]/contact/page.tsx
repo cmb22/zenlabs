@@ -9,7 +9,6 @@ type TProps = {
 };
 const ContactPage = async ({ params }: TProps) => {
     const { lang } = await params;
-    // console.log("Received lang:", lang);
     if (!isLocale(lang)) {
         notFound();
     }

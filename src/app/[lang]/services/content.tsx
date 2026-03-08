@@ -6,7 +6,7 @@ type ContentProps = {
     lang: Locale;
 };
 
-export const Content = ({ lang = "de" }: ContentProps) => {
+export const Content = async ({ lang = "de" }: ContentProps) => {
     const t = translate({ lang, val: "services" });
 
     return (
