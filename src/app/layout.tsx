@@ -27,7 +27,7 @@ export default function RootLayout({
   params: { lang: string };
 }) {
   return (
-    <html lang={params.lang}>
+    <html lang={params.lang} className={`${inter.variable} ${manrope.variable}`}>
       <body>{children}</body>
     </html>
   );
