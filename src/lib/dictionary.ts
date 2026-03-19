@@ -68,6 +68,15 @@ export const dictionary = {
                 "Minimalistische Website zur Präsentation von Projekten, Büroprofil und Kontaktinformationen. Der Fokus liegt auf einer klaren visuellen Struktur und einer ruhigen, architekturnahen Gestaltung.",
 
             note: "Weitere Projekte auf Anfrage.",
+            project1Title: "Architektur Studio Webseite",
+            project1ServicesText: "Design-Umsetzung, responsives Frontend, Inhaltsstruktur",
+            project1SummaryText: "Ein klares und modernes Webseitenkonzept für ein architekturorientiertes Unternehmen mit starkem Editorial-Layout.",
+            project1Note: "Konzipiert als präsentationsorientierte Unternehmensseite mit Fokus auf Klarheit, Struktur und visuelle Zurückhaltung.",
+
+            project2Title: "Kunst Portfolio Webseite",
+            project2ServicesText: "UI-Design, Mehrsprachigkeit, responsives Grid, Anfrage-Flow",
+            project2SummaryText: "Eine mehrsprachige Portfolio-Webseite für einen selbstständigen Künstler, mit Fokus auf Typografie, Bildkomposition und eine minimalistische, galerieartige Darstellung.",
+            project2Note: "Enthält englische, deutsche und französische Versionen, Detailseiten für Gemälde sowie einen einfachen anfragebasierten Kaufprozess.",
         },
 
         philosophy: {
@@ -168,6 +177,15 @@ export const dictionary = {
                 "Site minimaliste présentant les projets, le profil du bureau et les informations de contact. L’accent est mis sur une structure visuelle claire et une esthétique calme, proche de l’architecture.",
 
             note: "Autres projets sur demande.",
+            project1Title: "Site web pour un studio d’architecture",
+            project1ServicesText: "Implémentation du design, développement responsive, structuration du contenu",
+            project1SummaryText: "Un concept de site web clair et moderne pour une activité liée à l’architecture, avec une approche éditoriale marquée.",
+            project1Note: "Conçu comme un site de présentation mettant l’accent sur la clarté, la structure et la sobriété visuelle.",
+
+            project2Title: "Site portfolio artistique",
+            project2ServicesText: "Design UI, mise en place multilingue, grille responsive, système de contact",
+            project2SummaryText: "Un site portfolio multilingue pour un artiste indépendant, axé sur la typographie, la composition des images et une présentation minimaliste proche d’une galerie.",
+            project2Note: "Inclut des versions en anglais, allemand et français, des pages détaillées pour les œuvres et un système simple de demande d’achat.",
         },
 
         philosophy: {
@@ -268,6 +286,15 @@ export const dictionary = {
                 "Minimal website presenting projects, studio profile and contact information. The focus is on a clear visual structure and a calm design language aligned with architecture.",
 
             note: "Additional projects available on request.",
+            project1Title: "Architect Studio Website",
+            project1ServicesText: "Design implementation, responsive development, content structure",
+            project1SummaryText: "A clean and modern website concept for an architecture-focused business with a strong editorial layout.",
+            project1Note: "Built as a presentation-focused business website with clarity, structure and visual restraint.",
+
+            project2Title: "Art Portfolio Website",
+            project2ServicesText: "UI design, multilingual setup, responsive grid, enquiry flow",
+            project2SummaryText: "A multilingual portfolio website for an artist, focused on typography, image composition and a minimal gallery-like presentation.",
+            project2Note: "Includes English, German and French versions, painting detail pages and a simple enquiry-based purchase flow.",
         },
 
         philosophy: {
