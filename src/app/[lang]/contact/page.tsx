@@ -13,10 +13,18 @@ const ContactPage = async ({ params }: TProps) => {
         notFound();
     }
     return (
-        <section className={styles.whiteSection}>
-            <Menu />
-            <Content lang={lang} />
-        </section>
+        <>
+            <section className={styles.whiteSection}>
+                <Menu />
+                <Content lang={lang} />
+            </section>
+            <div className={styles.footer}>
+
+                <a href="/imprint" className={styles.imprint}>
+                    Impressum
+                </a>
+            </div>
+        </>
     )
 }
 

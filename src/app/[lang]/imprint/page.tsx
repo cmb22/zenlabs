@@ -1,15 +1,16 @@
 import { Content } from "./content";
-import styles from "./services.module.css";
+import styles from "./Imprint.module.css";
 import { Menu } from "@/components/menu";
 import { isLocale } from "@/lib/dictionary";
 import { notFound } from "next/navigation";
 
 type TProps = {
-    params: { lang: string };
+    params: Promise<{ lang: string }>;
 };
 
-const Services = async ({ params }: TProps) => {
+const Imprint = async ({ params }: TProps) => {
     const { lang } = await params;
+
     if (!isLocale(lang)) {
         notFound();
     }
@@ -19,7 +20,7 @@ const Services = async ({ params }: TProps) => {
             <Menu />
             <Content lang={lang} />
         </section>
-
     );
-}
-export default Services;
+};
+
+export default Imprint;

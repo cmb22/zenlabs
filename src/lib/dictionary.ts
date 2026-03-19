@@ -1,3 +1,5 @@
+// src/lib/dictionary.ts
+
 export const dictionary = {
     de: {
         home: {
@@ -73,10 +75,10 @@ export const dictionary = {
             project1SummaryText: "Ein klares und modernes Webseitenkonzept für ein architekturorientiertes Unternehmen mit starkem Editorial-Layout.",
             project1Note: "Konzipiert als präsentationsorientierte Unternehmensseite mit Fokus auf Klarheit, Struktur und visuelle Zurückhaltung.",
 
-            project2Title: "Kunst Portfolio Webseite",
+            project2Title: "Portfolio Website",
             project2ServicesText: "UI-Design, Mehrsprachigkeit, responsives Grid, Anfrage-Flow",
-            project2SummaryText: "Eine mehrsprachige Portfolio-Webseite für einen selbstständigen Künstler, mit Fokus auf Typografie, Bildkomposition und eine minimalistische, galerieartige Darstellung.",
-            project2Note: "Enthält englische, deutsche und französische Versionen, Detailseiten für Gemälde sowie einen einfachen anfragebasierten Kaufprozess.",
+            project2SummaryText: "Eine mehrsprachige Portfolio-Webseite mit Fokus auf Typografie, Bildkomposition und eine minimalistische, galerieartige Darstellung.",
+            project2Note: "Enthält englische, deutsche und französische Versionen, Detailseiten sowie einen einfachen anfragebasierten Prozess.",
         },
 
         philosophy: {
@@ -98,7 +100,24 @@ export const dictionary = {
             principle3TextMobile:
                 "Langfristig wartbar und anpassbar.",
         },
-
+        imprint: {
+            title: "Impressum",
+            name: "Chris Blyth",
+            street: "Jungstr. 19",
+            city: "10247 Berlin",
+            phoneLabel: "Telefon",
+            emailLabel: "E-Mail",
+            taxLabel: "Steuernummer",
+            liabilityContentTitle: "Haftung für Inhalte",
+            liabilityContentText:
+                "Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen.",
+            liabilityLinksTitle: "Haftung für Links",
+            liabilityLinksText:
+                "Unsere Website enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. Für diese fremden Inhalte übernehmen wir keine Gewähr.",
+            copyrightTitle: "Urheberrecht",
+            copyrightText:
+                "Die durch den Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht.",
+        },
         navigation: {
             home: "Startseite",
             services: "Services",
@@ -182,10 +201,10 @@ export const dictionary = {
             project1SummaryText: "Un concept de site web clair et moderne pour une activité liée à l’architecture, avec une approche éditoriale marquée.",
             project1Note: "Conçu comme un site de présentation mettant l’accent sur la clarté, la structure et la sobriété visuelle.",
 
-            project2Title: "Site portfolio artistique",
+            project2Title: "Site portfolio",
             project2ServicesText: "Design UI, mise en place multilingue, grille responsive, système de contact",
-            project2SummaryText: "Un site portfolio multilingue pour un artiste indépendant, axé sur la typographie, la composition des images et une présentation minimaliste proche d’une galerie.",
-            project2Note: "Inclut des versions en anglais, allemand et français, des pages détaillées pour les œuvres et un système simple de demande d’achat.",
+            project2SummaryText: "Un site portfolio multilingue centré sur la typographie, la composition des images et une présentation minimaliste proche d’une galerie.",
+            project2Note: "Inclut des versions en anglais, allemand et français, des pages détaillées ainsi qu’un processus simple basé sur la prise de contact.",
         },
 
         philosophy: {
@@ -207,7 +226,24 @@ export const dictionary = {
             principle3TextMobile:
                 "Faciles à maintenir.",
         },
-
+        imprint: {
+            title: "Mentions légales",
+            name: "Chris Blyth",
+            street: "Jungstr. 19",
+            city: "10247 Berlin",
+            phoneLabel: "Téléphone",
+            emailLabel: "Email",
+            taxLabel: "Numéro fiscal",
+            liabilityContentTitle: "Responsabilité concernant les contenus",
+            liabilityContentText:
+                "Les contenus de nos pages ont été élaborés avec le plus grand soin. Nous ne pouvons toutefois garantir l’exactitude, l’exhaustivité ou l’actualité des contenus.",
+            liabilityLinksTitle: "Responsabilité concernant les liens",
+            liabilityLinksText:
+                "Notre site contient des liens vers des sites externes de tiers sur lesquels nous n’avons aucune influence. Nous n’assumons donc aucune responsabilité pour ces contenus externes.",
+            copyrightTitle: "Droit d’auteur",
+            copyrightText:
+                "Les contenus et œuvres créés par l’exploitant du site sur ces pages sont soumis au droit d’auteur allemand.",
+        },
         navigation: {
             home: "Accueil",
             services: "Services",
@@ -291,10 +327,10 @@ export const dictionary = {
             project1SummaryText: "A clean and modern website concept for an architecture-focused business with a strong editorial layout.",
             project1Note: "Built as a presentation-focused business website with clarity, structure and visual restraint.",
 
-            project2Title: "Art Portfolio Website",
+            project2Title: "Portfolio Website",
             project2ServicesText: "UI design, multilingual setup, responsive grid, enquiry flow",
-            project2SummaryText: "A multilingual portfolio website for an artist, focused on typography, image composition and a minimal gallery-like presentation.",
-            project2Note: "Includes English, German and French versions, painting detail pages and a simple enquiry-based purchase flow.",
+            project2SummaryText: "A multilingual portfolio website focused on typography, image composition and a minimal gallery-like presentation.",
+            project2Note: "Includes English, German and French versions, detail pages and a simple enquiry-based process.",
         },
 
         philosophy: {
@@ -317,6 +353,24 @@ export const dictionary = {
                 "Easy to maintain and adapt",
         },
 
+        imprint: {
+            title: "Legal Notice",
+            name: "Chris Blyth",
+            street: "Jungstr. 19",
+            city: "10247 Berlin",
+            phoneLabel: "Phone",
+            emailLabel: "Email",
+            taxLabel: "Tax number",
+            liabilityContentTitle: "Liability for content",
+            liabilityContentText:
+                "The contents of our pages have been created with great care. However, we cannot guarantee the accuracy, completeness or timeliness of the content.",
+            liabilityLinksTitle: "Liability for links",
+            liabilityLinksText:
+                "Our website contains links to external third-party websites over whose content we have no influence. We therefore accept no liability for this external content.",
+            copyrightTitle: "Copyright",
+            copyrightText:
+                "The content and works created by the site operator on these pages are subject to German copyright law.",
+        },
         navigation: {
             home: "Home",
             services: "Services",

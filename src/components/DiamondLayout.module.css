@@ -4,7 +4,7 @@
     --diamond-size: min(50vw, 440px);
 
     position: relative;
-    height: calc(100vh - 195px);
+    height: calc(100vh - 265px);
     min-height: 720px;
     background: #f3f0eb;
     overflow: visible;
